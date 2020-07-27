@@ -27,3 +27,14 @@ Hello와 버튼을 누르면 이름을 출력해주는 역할을 합니다.
 
 <img width="492" alt="스크린샷 2020-07-27 오후 4 38 27" src="https://user-images.githubusercontent.com/16849874/88517122-56664180-d029-11ea-940f-0f5230e97e33.png">
 
+---
+
+## 꽃 이미지를 이용한 이미지 전환 실습
+
+프로젝트명 : ImageViewExam
+
+이미지 뷰를 배열을 이용해서 이미지를 이전 다음으로 전환하는 실습입니다.
+
+배열 인덱스를 변수로 따로 지정해서 if문으로 인덱스 한계를 주어서 문제를 풀었습니다.
+
+<img width="479" alt="스크린샷 2020-07-27 오후 5 22 54" src="https://user-images.githubusercontent.com/16849874/88520434-89f79a80-d02e-11ea-9a0d-8f6b98cfe13b.png">
