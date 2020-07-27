@@ -49,10 +49,17 @@ DatePicker을 이용해서 일정을 선택했을때의 함수의 실행하는 �
 
 <img width="519" alt="스크린샷 2020-07-27 오후 6 09 20" src="https://user-images.githubusercontent.com/16849874/88524851-dcd45080-d034-11ea-98c2-17d8bd15180b.png">
 
+---
 
+## DatePicker을 이용한 알람 만들기
 
+프로젝트명 : DatePickerExam
 
+이전의 프로젝트의 연장선으로 기존 시간과 선택시간이 같으면 1분동안 배경화면을 빨강색으로 만드는 기능을 추가했습니다.
 
+이것으로 타이머의 기능에 대해 좀더 확실하게 알게 된것 같습니다.
+
+<img width="476" alt="스크린샷 2020-07-27 오후 10 55 15" src="https://user-images.githubusercontent.com/16849874/88551033-597b2500-d05d-11ea-8785-e813a185be93.png">
 
 
 
