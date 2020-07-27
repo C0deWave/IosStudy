@@ -38,3 +38,24 @@ Hello와 버튼을 누르면 이름을 출력해주는 역할을 합니다.
 배열 인덱스를 변수로 따로 지정해서 if문으로 인덱스 한계를 주어서 문제를 풀었습니다.
 
 <img width="479" alt="스크린샷 2020-07-27 오후 5 22 54" src="https://user-images.githubusercontent.com/16849874/88520434-89f79a80-d02e-11ea-9a0d-8f6b98cfe13b.png">
+
+---
+
+## DatePicker을 이용한 예제 앱 만들어 보기
+
+프로젝트명 : DatePickerStudy
+
+DatePicker을 이용해서 일정을 선택했을때의 함수의 실행하는 방법을 알아보고 또한 타이머를 만들어서 각 타이머의 시간마다 작동하는 함수를 만들어 1초마다 타이머ㅏ 실행하게 만들어서 현재시간을 지속적으로 업데이트 해 보았습니다.
+
+<img width="519" alt="스크린샷 2020-07-27 오후 6 09 20" src="https://user-images.githubusercontent.com/16849874/88524851-dcd45080-d034-11ea-98c2-17d8bd15180b.png">
+
+
+
+
+
+
+
+
+
+
+
