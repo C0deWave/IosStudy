@@ -117,3 +117,40 @@ DatePicker을 이용해서 일정을 선택했을때의 함수의 실행하는 �
 
 <img width="471" alt="스크린샷 2020-07-29 오후 12 19 31" src="https://user-images.githubusercontent.com/16849874/88752820-c72a6c80-d195-11ea-995d-ea6b0872e4b0.png">
 
+---
+
+## WebView를 이용해서 간단한 브라우저 만들기
+
+프로젝트명 : WebStudy
+
+WebView를 이용해서 간단한 인터넷 브라우저를 만드는 연습을 했습니다.
+
+이 프로젝트를 이용해서 WebView에 페이지를 띄우고 각종 기능을 더할 수 있을것 같습니다.
+
+<img width="477" alt="스크린샷 2020-07-29 오후 2 13 58" src="https://user-images.githubusercontent.com/16849874/88771084-b12ea300-d1b9-11ea-9ca9-e592f9087b9d.png">
+
+---
+
+## WebView를 응용해서 웹앱 만들기
+
+프로젝트명 : WebExam
+
+동적 뷰로 이루어진 웹 페이지를 이용해서 이를 전체 화면이 WebView로 이루어진 화면에 띄웠습니다.
+
+웹 앱이라는 것이 이렇게 구성되어 있구나 느꼈습니다.
+
+<img width="476" alt="스크린샷 2020-07-29 오후 2 24 59" src="https://user-images.githubusercontent.com/16849874/88771095-b4c22a00-d1b9-11ea-94b8-3de6f9b130d9.png">
+
+---
+
+## MapView를 이용해서 지도 띄우고 Annotation추가하기
+
+프로젝트명 : MapStudy
+
+본 장의 실습 내용이 적어서 실습도 같이 하였습니다.
+
+애플의 지도를 이용해서 오산역, 가천대를 띄워보았습니다.
+
+MapView를 이용해는 방법을 대강 배워보았습니다.
+
+<img width="487" alt="스크린샷 2020-07-29 오후 4 22 49" src="https://user-images.githubusercontent.com/16849874/88771110-ba1f7480-d1b9-11ea-9b87-c8ed776655de.png">
