@@ -93,9 +93,27 @@ DatePicker을 이용해서 일정을 선택했을때의 함수의 실행하는 �
 
 <img width="470" alt="스크린샷 2020-07-29 오전 12 32 22" src="https://user-images.githubusercontent.com/16849874/88687233-fb207600-d132-11ea-9aac-250dc7c4b068.png">
 
+---
 
+## PickerView를 2개 만들어서 각각 따로 작동하게 만들어 보기
 
+프로젝트명 : PickerViewExam
 
+이번에는 기존에 배운 PickerView를 2개를 만들어서 이를 각각 따로따로 작동하도록 만들어 보았습니다.
 
+왼쪽의 PickerView는 이미지를 갱신하도록 하고 오른쪽의 PickerView는 제목을 갱신하게 만들었습니다.
 
+<img width="472" alt="스크린샷 2020-07-29 오전 9 55 25" src="https://user-images.githubusercontent.com/16849874/88752606-4ff4d880-d195-11ea-9835-dc79ba9a9730.png">
+
+---
+
+## Alert를 이용해서 기존의 DatePickerView 프로젝트의 알람 기능 갱신하기
+
+프로젝트명 : AlertExam
+
+이번에는 이전에 만든 DatePickerView의 기존의 같은 시간이 되면 빨간색으로 변하는 알람기능을 Alert를 이용해서 알람이 일어나도록 만들었습니다.
+
+이 프로젝트의 특징은 1초 타이머 안에서 1번 알람이 일어나면 1분동안은 알람이 일어나지 않게 하는 것입니다. 이는 Flag를 이용해서 구현했습니다.
+
+<img width="471" alt="스크린샷 2020-07-29 오후 12 19 31" src="https://user-images.githubusercontent.com/16849874/88752820-c72a6c80-d195-11ea-995d-ea6b0872e4b0.png">
 
