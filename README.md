@@ -154,3 +154,46 @@ WebView를 이용해서 간단한 인터넷 브라우저를 만드는 연습을 
 MapView를 이용해는 방법을 대강 배워보았습니다.
 
 <img width="487" alt="스크린샷 2020-07-29 오후 4 22 49" src="https://user-images.githubusercontent.com/16849874/88771110-ba1f7480-d1b9-11ea-9b87-c8ed776655de.png">
+
+---
+
+## PageControl 연습해보기
+
+프로젝트명 : PageContrellerStudy
+
+페이지 컨트롤에 대해서 배워 보았습니다. 슬라이드로 하는 것이 UI부분에서 유리하지만 이는 나중에 배운다고 합니다.
+
+페이지 컨트롤의 각종 설정에 대해서도 알아보았습니다.
+
+나중에 처음 튜토리얼이나 설명을 할때 요긴하게 쓰일 것 같습니다.
+
+<img width="470" alt="스크린샷 2020-07-30 오후 5 20 24" src="https://user-images.githubusercontent.com/16849874/88900343-37b2b580-d28a-11ea-9a91-cb37f55825db.png">
+
+---
+
+## PageControl 실습
+
+프로젝트명 : PageContrellerExam
+
+페이지 컨트롤을 다시 만들어 보는 실습을 했습니다.
+
+만들기가 생각보다 쉬운 것 같습니다.
+
+<img width="467" alt="스크린샷 2020-07-30 오후 5 20 51" src="https://user-images.githubusercontent.com/16849874/88900389-4731fe80-d28a-11ea-918b-dd1b6e54c178.png">
+
+---
+
+## Tab bar Controller 실습
+
+프로젝트명 : TabExam
+
+안드로이드의 bottom navigation과 같이 하단에 여러 탭을 만들어서 화면전환을 하는 기능입니다.
+
+안드로이드 보다 쉬운것 같습니다.
+
+다른 프로젝트에서 만든것을 합치면서 여러 네비게이션을 만들어 보았습니다.
+
+실습의 내용이 연습에서 뷰를 하나 추가하는 것이라서 본 프로젝트에서 연습, 실습을 전부 했습니다.
+
+<img width="472" alt="스크린샷 2020-07-30 오후 5 19 56" src="https://user-images.githubusercontent.com/16849874/88900442-5749de00-d28a-11ea-9e0d-e679476e2e65.png"> 
+<img width="475" alt="스크린샷 2020-07-30 오후 5 19 46" src="https://user-images.githubusercontent.com/16849874/88900457-5c0e9200-d28a-11ea-93d3-8ecbad6a04ac.png">
