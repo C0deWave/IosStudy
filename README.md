@@ -197,3 +197,31 @@ MapView를 이용해는 방법을 대강 배워보았습니다.
 
 <img width="472" alt="스크린샷 2020-07-30 오후 5 19 56" src="https://user-images.githubusercontent.com/16849874/88900442-5749de00-d28a-11ea-9e0d-e679476e2e65.png"> 
 <img width="475" alt="스크린샷 2020-07-30 오후 5 19 46" src="https://user-images.githubusercontent.com/16849874/88900457-5c0e9200-d28a-11ea-93d3-8ecbad6a04ac.png">
+
+---
+
+##
+
+프로젝트명 : NavigationStudy
+
+이번에는 네비게이션 컨트롤러를 이용해서 화면을 전환하는 방법을 배웠습니다.
+
+또한 프로토콜을 이용한 값의 반환을 받는 방법과 preview를 이용해서 값을 전달하는 방법을 배워보았습니다.
+
+실습이 이미지의 확대, 축소를 구현하는 것이였는데 예제안에 같이 구현했습니다.
+
+<img width="472" alt="스크린샷 2020-08-01 오후 1 37 22" src="https://user-images.githubusercontent.com/16849874/89094188-25f11f80-d3fc-11ea-8b03-c035d18d2252.png">
+
+---
+
+##
+
+프로젝트명 : TableStudy
+
+이번에는 리스트 뷰를 만든 다음에 리스트뷰에 내용의 추가, 삭제와 아이콘의 설정 등에 대해서 알아보았습니다.
+
+실습 내용이 아이콘을 변경하는 것이라 예제에서 같이 적용했습니다.
+
+리스트뷰를 어떻게 구성하는지 알게 된 것 같습니다.
+
+<img width="459" alt="스크린샷 2020-08-01 오후 1 36 59" src="https://user-images.githubusercontent.com/16849874/89094191-2a1d3d00-d3fc-11ea-9a2a-7b834fd88c83.png">
