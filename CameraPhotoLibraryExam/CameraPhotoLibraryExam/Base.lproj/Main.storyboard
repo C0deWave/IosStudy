@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CameraPhotoLibraryExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cKG-4F-yoV">
+                                <rect key="frame" x="0.0" y="44" width="398" height="818.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zeU-2J-C3s">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="403.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="HCJ-U5-faw">
+                                        <rect key="frame" x="0.0" y="403.5" width="398" height="358.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eEp-Vh-n4z">
+                                                <rect key="frame" x="0.0" y="0.0" width="199" height="358.5"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KdO-Zz-3fZ">
+                                                <rect key="frame" x="199" y="0.0" width="199" height="358.5"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="eEp-Vh-n4z" firstAttribute="top" secondItem="HCJ-U5-faw" secondAttribute="top" constant="2" id="TS8-qH-ewn"/>
+                                            <constraint firstItem="KdO-Zz-3fZ" firstAttribute="top" secondItem="HCJ-U5-faw" secondAttribute="top" constant="2" id="UaN-yo-6TQ"/>
+                                            <constraint firstItem="eEp-Vh-n4z" firstAttribute="leading" secondItem="HCJ-U5-faw" secondAttribute="leading" id="ZzW-f4-6Ky"/>
+                                            <constraint firstAttribute="bottom" secondItem="eEp-Vh-n4z" secondAttribute="bottom" constant="2" id="bhm-qC-tEU"/>
+                                            <constraint firstAttribute="trailing" secondItem="KdO-Zz-3fZ" secondAttribute="trailing" id="kO6-J3-J91"/>
+                                            <constraint firstAttribute="bottom" secondItem="KdO-Zz-3fZ" secondAttribute="bottom" constant="2" id="mq0-Tg-eSm"/>
+                                            <constraint firstItem="KdO-Zz-3fZ" firstAttribute="leading" secondItem="eEp-Vh-n4z" secondAttribute="trailing" constant="2" id="pTV-rh-RNN"/>
+                                            <constraint firstItem="KdO-Zz-3fZ" firstAttribute="leading" secondItem="eEp-Vh-n4z" secondAttribute="trailing" constant="2" id="zok-62-8aM"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Tfc-aD-lZL">
+                                        <rect key="frame" x="0.0" y="762" width="398" height="56.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKB-N2-9nm">
+                                                <rect key="frame" x="0.0" y="0.0" width="132.5" height="56.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="5Ij-aB-19O"/>
+                                                </constraints>
+                                                <state key="normal" title="사진촬영"/>
+                                                <connections>
+                                                    <action selector="takePictureFromCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jrb-th-Ymn"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BO-iw-Af8">
+                                                <rect key="frame" x="132.5" y="0.0" width="133" height="56.5"/>
+                                                <state key="normal" title="사진불러오기"/>
+                                                <connections>
+                                                    <action selector="btnLoadPictureFromLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lPP-Gc-IZo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbW-0Z-wPW">
+                                                <rect key="frame" x="265.5" y="0.0" width="132.5" height="56.5"/>
+                                                <state key="normal" title="초기화"/>
+                                                <connections>
+                                                    <action selector="btnClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBr-lC-dzc"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="eEp-Vh-n4z" firstAttribute="width" secondItem="Tfc-aD-lZL" secondAttribute="width" multiplier="0.5" id="1rc-Hh-hl9"/>
+                                    <constraint firstItem="zeU-2J-C3s" firstAttribute="top" secondItem="cKG-4F-yoV" secondAttribute="top" constant="2" id="1xQ-Z6-4uK"/>
+                                    <constraint firstItem="zeU-2J-C3s" firstAttribute="leading" secondItem="cKG-4F-yoV" secondAttribute="leading" constant="2" id="NAv-Cn-Sql"/>
+                                    <constraint firstItem="KdO-Zz-3fZ" firstAttribute="width" secondItem="Tfc-aD-lZL" secondAttribute="width" multiplier="0.5" id="dac-2A-xhH"/>
+                                    <constraint firstAttribute="trailing" secondItem="zeU-2J-C3s" secondAttribute="trailing" constant="2" id="eSl-8z-VVk"/>
+                                    <constraint firstItem="HCJ-U5-faw" firstAttribute="top" secondItem="zeU-2J-C3s" secondAttribute="bottom" constant="2" id="k2R-QX-fYz"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KdO-Zz-3fZ" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="0Vz-Se-Ix4"/>
+                            <constraint firstItem="zeU-2J-C3s" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.92" constant="30" id="FoB-bm-TiM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cKG-4F-yoV" secondAttribute="trailing" constant="2" id="Tbp-cb-Nla"/>
+                            <constraint firstItem="cKG-4F-yoV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="h5o-6H-9xy"/>
+                            <constraint firstItem="zeU-2J-C3s" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45" id="nUY-po-c79"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cKG-4F-yoV" secondAttribute="bottom" id="pld-R3-MYZ"/>
+                            <constraint firstItem="cKG-4F-yoV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sIs-F6-k83"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgView1" destination="zeU-2J-C3s" id="s8F-PZ-tUo"/>
+                        <outlet property="imgView2" destination="eEp-Vh-n4z" id="rR2-2X-2aE"/>
+                        <outlet property="imgView3" destination="KdO-Zz-3fZ" id="9Vh-7Z-H9U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-64" y="139"/>
+        </scene>
+    </scenes>
+</document>
